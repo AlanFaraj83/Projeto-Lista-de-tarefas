@@ -30,7 +30,12 @@ const saveTodo = (Text) => {
     deleteBtn.classList.add("remove-todo")
     deleteBtn.innerHTML = '<i class="fa-solid fa-xmark"></i>'
     todo.appendChild(deleteBtn)
-}
+
+    todoList.appendChild(todo);
+
+    todoInput.value = "";
+    todo.focus();
+};
 
 // Eventos
 todoForm.addEventListener("submit", (e) => {
