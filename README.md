@@ -21,6 +21,7 @@
   * CSS
   * JAVASCRIPT
   * DOM
+  * LocalStorage
   
   <h2>Apresentação do projeto</h2>
   
